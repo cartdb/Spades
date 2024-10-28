@@ -14,8 +14,8 @@ deck = ['2c', '2d', '2h', '2s', '3c', '3d', '3h', '3s', '4c', '4d', '4h', '4s', 
 random.shuffle(deck)
 player1 = []
 player2 = []
-trick1 = random.randint(1, 54)
-trick2 = 54 - trick1
+trick1 = random.randint(1, 26)
+trick2 = 27 - trick1
 pts1 = 0
 pts2 = 0
 pts1Gained = 0
